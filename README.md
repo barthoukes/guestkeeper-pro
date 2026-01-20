@@ -2,7 +2,7 @@
 
 ## Smart, Standalone Visitor Registration for Any Business
 
-GuestKeeper Pro is a complete, self-contained visitor management system that runs entirely on your Android phone or tablet. Perfect for reception areas, front desks, or temporary event check-ins, this app provides professional visitor registration without requiring internet connectivity or complex setup.
+GuestKeeper Pro is a complete, self-contained visitor management system that runs entirely on your Android phone or tablet. Perfect for reception areas, where guests visit your companies, this app provides professional visitor registration without requiring internet connectivity or complex setup.
 
 ### Why GuestKeeper Pro?
 - **100% Standalone**: No server costs, no monthly fees, works completely offline
