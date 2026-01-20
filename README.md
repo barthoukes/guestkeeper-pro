@@ -11,6 +11,8 @@ GuestKeeper Pro is a complete, self-contained visitor management system that run
 - **Visit History**: Track all visits and export records via email
 - **Simple Distribution**: Available on Google Play Store for one-time purchase
 
+<img width="2304" height="1728" alt="image" src="https://github.com/user-attachments/assets/555e8917-39c2-42f6-a9ec-9fd3680b1dce" />
+
 ### Key Features
 - Visitor/Supplier registration with photos
 - Digital visitor logs and real-time presence tracking
