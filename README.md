@@ -40,6 +40,7 @@ REQ-002: Visitor Information Capture
 - Required: Full name, email, phone number
 - Required: Arrival time (auto-captured with manual override)
 - Required: Estimated departure time (time picker)
+- Required: Who to visit (choose host from list)
 - Optional: Company name, visit purpose, host employee
 - Photo capture button (opens camera)
 - Auto-save on registration completion
@@ -59,7 +60,7 @@ REQ-004: Physical Tag Association
 
 REQ-005: Active Visit Dashboard
 - Real-time list of current visitors in building
-- Sort by: Arrival time, Name, Company
+- Sort by: Arrival time, Host, Name, Company
 - Filter by: Guest/Supplier type
 - Quick view of estimated departure times
 - Color coding for overdue departures
@@ -85,12 +86,17 @@ REQ-008: Visit History Database
 - Search by: Date range, Name, Email, Company
 - Filter by: Visitor type, Tag number
 
-REQ-009: Email Export Functionality
+REQ-009-01: Email Export Functionality
 - Select multiple visits for export
 - Generate CSV/PDF report
 - Email to multiple recipients
 - Include/exclude columns customization
 - Automatic report naming convention
+
+REQ-009-02: Status Synchronization
+- Push updates to waiting screen when host reads email
+- Auto-refresh status every 30 seconds
+- WebSocket or polling implementation for real-time updates
 
 ## Company Personalization
 
@@ -114,11 +120,17 @@ REQ-012: Multi-User Support
 - Receptionist: Registration only, no settings access
 - User session timeout (configurable)
 
-REQ-013: Data Security
+REQ-013-01: Data Security
 - Local database encryption
 - Password hashing (SHA-256)
 - Auto-backup to local storage
 - Data purge policy (configurable retention)
+
+REQ-013-02: Data Protection
+- GDPR-compliant email tracking
+- Opt-out mechanism for hosts
+- Visitor photo sharing consent toggle
+- Data retention settings for tracking logs
 
 ## Camera & Media Features
 
