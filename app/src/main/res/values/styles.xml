@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+   <!-- Base application theme. -->
+   <style name="Theme.GuestKeeperPro" parent="Theme.Material3.DayNight.NoActionBar">
+      <!-- Primary brand color. -->
+      <item name="colorPrimary">@color/primary_500</item>
+      <item name="colorPrimaryVariant">@color/primary_700</item>
+      <item name="colorOnPrimary">@color/white</item>
+
+      <!-- Secondary brand color. -->
+      <item name="colorSecondary">@color/secondary_500</item>
+      <item name="colorSecondaryVariant">@color/secondary_700</item>
+      <item name="colorOnSecondary">@color/white</item>
+
+      <!-- Status bar color. -->
+      <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+      <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+
+      <!-- Navigation bar color. -->
+      <item name="android:navigationBarColor" tools:targetApi="o">?attr/colorPrimary</item>
+
+      <!-- Surface colors -->
+      <item name="colorSurface">@color/surface</item>
+      <item name="colorOnSurface">@color/on_surface</item>
+      <item name="colorSurfaceVariant">@color/surface_variant</item>
+      <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+
+      <!-- Background colors -->
+      <item name="android:colorBackground">@color/background</item>
+      <item name="colorOnBackground">@color/on_background</item>
+
+      <!-- Error color -->
+      <item name="colorError">@color/error</item>
+      <item name="colorOnError">@color/on_error</item>
+
+      <!-- Typography -->
+      <item name="textAppearanceHeadlineLarge">@style/TextAppearance.GuestKeeperPro.Headline.Large</item>
+      <item name="textAppearanceHeadlineMedium">@style/TextAppearance.GuestKeeperPro.Headline.Medium</item>
+      <item name="textAppearanceHeadlineSmall">@style/TextAppearance.GuestKeeperPro.Headline.Small</item>
+      <item name="textAppearanceTitleLarge">@style/TextAppearance.GuestKeeperPro.Title.Large</item>
+      <item name="textAppearanceTitleMedium">@style/TextAppearance.GuestKeeperPro.Title.Medium</item>
+      <item name="textAppearanceTitleSmall">@style/TextAppearance.GuestKeeperPro.Title.Small</item>
+      <item name="textAppearanceBodyLarge">@style/TextAppearance.GuestKeeperPro.Body.Large</item>
+      <item name="textAppearanceBodyMedium">@style/TextAppearance.GuestKeeperPro.Body.Medium</item>
+      <item name="textAppearanceBodySmall">@style/TextAppearance.GuestKeeperPro.Body.Small</item>
+      <item name="textAppearanceLabelLarge">@style/TextAppearance.GuestKeeperPro.Label.Large</item>
+      <item name="textAppearanceLabelMedium">@style/TextAppearance.GuestKeeperPro.Label.Medium</item>
+      <item name="textAppearanceLabelSmall">@style/TextAppearance.GuestKeeperPro.Label.Small</item>
+
+      <!-- Button styles -->
+      <item name="materialButtonStyle">@style/Widget.GuestKeeperPro.Button</item>
+      <item name="borderlessButtonStyle">@style/Widget.GuestKeeperPro.Button.Borderless</item>
+
+      <!-- Card view -->
+      <item name="cardViewStyle">@style/Widget.GuestKeeperPro.CardView</item>
+
+      <!-- Text input layout -->
+      <item name="textInputStyle">@style/Widget.GuestKeeperPro.TextInputLayout.OutlinedBox</item>
+
+      <!-- Toolbar -->
+      <item name="toolbarStyle">@style/Widget.GuestKeeperPro.Toolbar</item>
+
+      <!-- Progress bar -->
+      <item name="progressBarStyle">@style/Widget.GuestKeeperPro.ProgressBar</item>
+
+      <!-- Switch -->
+      <item name="switchStyle">@style/Widget.GuestKeeperPro.Switch</item>
+
+      <!-- Chip -->
+      <item name="chipStyle">@style/Widget.GuestKeeperPro.Chip</item>
+
+      <!-- Dialog theme -->
+      <item name="alertDialogTheme">@style/ThemeOverlay.GuestKeeperPro.Dialog</item>
+
+      <!-- Corner radius -->
+      <item name="cornerRadius">8dp</item>
+      <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.GuestKeeperPro.Small</item>
+      <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.GuestKeeperPro.Medium</item>
+      <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.GuestKeeperPro.Large</item>
+
+      <!-- Elevation -->
+      <item name="elevationLevel1">2dp</item>
+      <item name="elevationLevel2">4dp</item>
+      <item name="elevationLevel3">6dp</item>
+      <item name="elevationLevel4">8dp</item>
+
+      <!-- Animation -->
+      <item name="android:windowAnimationStyle">@style/WindowAnimation.GuestKeeperPro</item>
+   </style>
+
+   <!-- Splash Screen Theme -->
+   <style name="Theme.GuestKeeperPro.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="android:windowBackground">@drawable/splash_background</item>
+      <item name="android:windowFullscreen">true</item>
+      <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+      <item name="android:statusBarColor">@color/primary_700</item>
+      <item name="android:navigationBarColor">@color/primary_700</item>
+   </style>
+
+   <!-- Dialog Theme -->
+   <style name="ThemeOverlay.GuestKeeperPro.Dialog" parent="ThemeOverlay.Material3.Dialog">
+      <item name="android:windowBackground">@drawable/dialog_background</item>
+      <item name="cornerRadius">12dp</item>
+      <item name="elevation">24dp</item>
+   </style>
+
+   <!-- Typography Styles -->
+   <style name="TextAppearance.GuestKeeperPro.Headline.Large" parent="TextAppearance.Material3.HeadlineLarge">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">32sp</item>
+      <item name="android:letterSpacing">0</item>
+      <item name="android:textStyle">bold</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Headline.Medium" parent="TextAppearance.Material3.HeadlineMedium">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">28sp</item>
+      <item name="android:letterSpacing">0</item>
+      <item name="android:textStyle">bold</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Headline.Small" parent="TextAppearance.Material3.HeadlineSmall">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">24sp</item>
+      <item name="android:letterSpacing">0</item>
+      <item name="android:textStyle">bold</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Title.Large" parent="TextAppearance.Material3.TitleLarge">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">22sp</item>
+      <item name="android:letterSpacing">0.0075</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Title.Medium" parent="TextAppearance.Material3.TitleMedium">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">18sp</item>
+      <item name="android:letterSpacing">0.01</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Title.Small" parent="TextAppearance.Material3.TitleSmall">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">16sp</item>
+      <item name="android:letterSpacing">0.0125</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Body.Large" parent="TextAppearance.Material3.BodyLarge">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">16sp</item>
+      <item name="android:letterSpacing">0.03125</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Body.Medium" parent="TextAppearance.Material3.BodyMedium">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">14sp</item>
+      <item name="android:letterSpacing">0.017857</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Body.Small" parent="TextAppearance.Material3.BodySmall">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:letterSpacing">0.025</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Label.Large" parent="TextAppearance.Material3.LabelLarge">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">14sp</item>
+      <item name="android:letterSpacing">0.00714286</item>
+      <item name="android:textStyle">medium</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Label.Medium" parent="TextAppearance.Material3.LabelMedium">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:letterSpacing">0.0416667</item>
+      <item name="android:textStyle">medium</item>
+   </style>
+
+   <style name="TextAppearance.GuestKeeperPro.Label.Small" parent="TextAppearance.Material3.LabelSmall">
+      <item name="fontFamily">@font/roboto</item>
+      <item name="android:textSize">11sp</item>
+      <item name="android:letterSpacing">0.0454545</item>
+      <item name="android:textStyle">medium</item>
+   </style>
+
+   <!-- Button Styles -->
+   <style name="Widget.GuestKeeperPro.Button" parent="Widget.Material3.Button">
+      <item name="android:insetTop">0dp</item>
+      <item name="android:insetBottom">0dp</item>
+      <item name="android:minHeight">48dp</item>
+      <item name="android:paddingLeft">24dp</item>
+      <item name="android:paddingRight">24dp</item>
+      <item name="cornerRadius">24dp</item>
+      <item name="elevation">0dp</item>
+      <item name="android:textAllCaps">false</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.Button.Borderless" parent="Widget.Material3.Button.TextButton">
+      <item name="android:minHeight">48dp</item>
+      <item name="cornerRadius">24dp</item>
+      <item name="android:textAllCaps">false</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.Button.Primary" parent="Widget.GuestKeeperPro.Button">
+      <item name="backgroundTint">@color/primary_500</item>
+      <item name="android:textColor">@color/white</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.Button.Secondary" parent="Widget.GuestKeeperPro.Button">
+      <item name="backgroundTint">@color/secondary_500</item>
+      <item name="android:textColor">@color/white</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+      <item name="strokeColor">@color/primary_500</item>
+      <item name="android:textColor">@color/primary_500</item>
+      <item name="cornerRadius">24dp</item>
+      <item name="android:textAllCaps">false</item>
+   </style>
+
+   <!-- CardView Style -->
+   <style name="Widget.GuestKeeperPro.CardView" parent="CardView">
+      <item name="cardCornerRadius">12dp</item>
+      <item name="cardElevation">4dp</item>
+      <item name="cardUseCompatPadding">true</item>
+      <item name="cardBackgroundColor">@color/surface</item>
+   </style>
+
+   <!-- TextInputLayout Style -->
+   <style name="Widget.GuestKeeperPro.TextInputLayout.OutlinedBox" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+      <item name="boxCornerRadiusTopStart">8dp</item>
+      <item name="boxCornerRadiusTopEnd">8dp</item>
+      <item name="boxCornerRadiusBottomStart">8dp</item>
+      <item name="boxCornerRadiusBottomEnd">8dp</item>
+      <item name="boxStrokeColor">@color/outline</item>
+      <item name="boxStrokeWidth">1dp</item>
+      <item name="boxStrokeWidthFocused">2dp</item>
+      <item name="boxStrokeErrorColor">@color/error</item>
+      <item name="hintTextColor">@color/on_surface_variant</item>
+      <item name="helperTextTextColor">@color/on_surface_variant</item>
+      <item name="errorTextColor">@color/error</item>
+   </style>
+
+   <!-- Toolbar Style -->
+   <style name="Widget.GuestKeeperPro.Toolbar" parent="Widget.Material3.Toolbar">
+      <item name="android:minHeight">?attr/actionBarSize</item>
+      <item name="titleTextAppearance">@style/TextAppearance.GuestKeeperPro.Title.Medium</item>
+      <item name="subtitleTextAppearance">@style/TextAppearance.GuestKeeperPro.Body.Medium</item>
+      <item name="android:background">?attr/colorPrimary</item>
+      <item name="titleTextColor">@color/white</item>
+      <item name="subtitleTextColor">@color/white</item>
+      <item name="navigationIconTint">@color/white</item>
+      <item name="overflowIconTint">@color/white</item>
+   </style>
+
+   <!-- ProgressBar Style -->
+   <style name="Widget.GuestKeeperPro.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+      <item name="android:indeterminateTint">@color/primary_500</item>
+      <item name="android:indeterminateTintMode">src_in</item>
+      <item name="android:minHeight">48dp</item>
+      <item name="android:maxHeight">48dp</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+      <item name="android:progressTint">@color/primary_500</item>
+      <item name="android:progressBackgroundTint">@color/surface_variant</item>
+      <item name="android:minHeight">4dp</item>
+      <item name="android:maxHeight">4dp</item>
+   </style>
+
+   <!-- Switch Style -->
+   <style name="Widget.GuestKeeperPro.Switch" parent="Widget.Material3.CompoundButton.Switch">
+      <item name="android:minWidth">48dp</item>
+      <item name="android:minHeight">48dp</item>
+      <item name="trackTint">@color/switch_track</item>
+      <item name="thumbTint">@color/switch_thumb</item>
+   </style>
+
+   <!-- Chip Style -->
+   <style name="Widget.GuestKeeperPro.Chip" parent="Widget.Material3.Chip.Assist">
+      <item name="chipCornerRadius">8dp</item>
+      <item name="chipSurfaceColor">@color/surface_variant</item>
+      <item name="chipStrokeColor">@color/outline</item>
+      <item name="chipStrokeWidth">1dp</item>
+      <item name="android:textAppearance">@style/TextAppearance.GuestKeeperPro.Label.Medium</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.Chip.Filter" parent="Widget.Material3.Chip.Filter">
+      <item name="chipCornerRadius">8dp</item>
+      <item name="chipSurfaceColor">@color/surface_variant</item>
+      <item name="chipStrokeColor">@color/outline</item>
+      <item name="chipStrokeWidth">1dp</item>
+      <item name="android:textAppearance">@style/TextAppearance.GuestKeeperPro.Label.Medium</item>
+   </style>
+
+   <!-- Shape Appearances -->
+   <style name="ShapeAppearance.GuestKeeperPro.Small" parent="ShapeAppearance.Material3.SmallComponent">
+      <item name="cornerFamily">rounded</item>
+      <item name="cornerSize">4dp</item>
+   </style>
+
+   <style name="ShapeAppearance.GuestKeeperPro.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+      <item name="cornerFamily">rounded</item>
+      <item name="cornerSize">8dp</item>
+   </style>
+
+   <style name="ShapeAppearance.GuestKeeperPro.Large" parent="ShapeAppearance.Material3.LargeComponent">
+      <item name="cornerFamily">rounded</item>
+      <item name="cornerSize">12dp</item>
+   </style>
+
+   <!-- Window Animations -->
+   <style name="WindowAnimation.GuestKeeperPro">
+      <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+      <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+      <item name="android:windowReenterAnimation">@anim/slide_in_left</item>
+      <item name="android:windowReturnAnimation">@anim/slide_out_right</item>
+   </style>
+
+   <!-- Custom Styles for specific use cases -->
+
+   <!-- Visitor Badge Style -->
+   <style name="Widget.GuestKeeperPro.Badge">
+      <item name="android:background">@drawable/badge_background</item>
+      <item name="android:padding">8dp</item>
+      <item name="android:textAppearance">@style/TextAppearance.GuestKeeperPro.Label.Medium</item>
+      <item name="android:textColor">@color/white</item>
+      <item name="android:gravity">center</item>
+      <item name="android:minWidth">64dp</item>
+      <item name="android:minHeight">24dp</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.Badge.Guest">
+      <item name="android:background">@drawable/badge_background_guest</item>
+   </style>
+
+   <style name="Widget.GuestKeeperPro.Badge.Supplier">
+      <item name="android:background">@drawable/badge_background_supplier</item>
+   </style>
+
+   <!-- Status Indicator Style -->
+   <style name="Widget.GuestKeeperPro.StatusIndicator">
+      <item name="android:background">@drawable/status_indicator</item>
+      <item name="android:minWidth">8dp</item>
+      <item name="android:minHeight">8dp</item>
+   </style>
+
+   <!-- Photo Frame Style -->
+   <style name="Widget.GuestKeeperPro.PhotoFrame">
+      <item name="android:background">@drawable/photo_frame</item>
+      <item name="android:padding">2dp</item>
+   </style>
+
+   <!-- Divider Style -->
+   <style name="Widget.GuestKeeperPro.Divider">
+      <item name="android:layout_height">1dp</item>
+      <item name="android:background">@color/divider</item>
+   </style>
+
+   <!-- Empty State Style -->
+   <style name="Widget.GuestKeeperPro.EmptyState">
+      <item name="android:gravity">center</item>
+      <item name="android:padding">48dp</item>
+   </style>
+
+   <!-- Loading Shimmer Style -->
+   <style name="Widget.GuestKeeperPro.Shimmer">
+      <item name="android:background">@drawable/shimmer_background</item>
+      <item name="shimmer_color">@color/shimmer</item>
+      <item name="shimmer_duration">1000</item>
+   </style>
+
+</resources>
